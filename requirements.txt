@@ -1,0 +1,29 @@
+# Requirements for: Deep Learning Based Early Prediction of Uterine Fibroids
+# Python 3.10
+# Conda environment: fibroid_ai_final
+# Install with: pip install -r requirements.txt
+
+# Core data handling
+numpy==2.4.6
+pandas==3.0.6
+
+# Machine learning
+scikit-learn==1.9.1
+xgboost==3.2.0
+imbalanced-learn==0.11.0
+
+# Deep learning
+torch==2.14.0
+pytorch-tabnet==4.1.0
+
+# Hyperparameter optimisation
+optuna==5.5.0
+
+# Explainability
+shap==0.51.0
+
+# Statistics
+scipy==1.17.1
+
+# Visualisation
+matplotlib==3.11.2
